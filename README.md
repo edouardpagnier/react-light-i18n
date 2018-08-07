@@ -1,6 +1,6 @@
 # react-light-i18n
 
-A very light weight library to deal with string translation with automatic locale detection.
+A very light weight library to deal with string translations with automatic locale detection.
 
 ## Usage
 
@@ -34,7 +34,7 @@ class Login extends Component <Props, State> {
 }
 ```
 
-You can also use seprated JSON file to store translations:
+You can also use separated JSON files to store your translations:
 
 ```javascript
 import I18n from 'react-light-i18n'
@@ -80,8 +80,9 @@ class Login extends Component <Props, State> {
 
 ## Locale auto detection
 
-By defaul, **react-light-i18n** automatically detect the browser locale.
-Alternatively, you can force the locale to be use like this:
+By default, **react-light-i18n** automatically detects the browser's locale.
+
+Alternatively, you can force the locale to be used like this:
 
 ```javascript
 I18n.setLocale('en')
