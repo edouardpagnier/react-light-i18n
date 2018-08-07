@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/edouardpagnier/react-simple-i18n/issues"
   },
-  "homepage": "https://github.com/edouardpagnier/react-simple-i18n#readme"
+  "homepage": "https://github.com/edouardpagnier/react-simple-i18n#readme",
+  "dependencies": {
+    "browser-locale": "^1.0.3"
+  }
 }

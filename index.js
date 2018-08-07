@@ -1,3 +1,5 @@
-export test() {
-	console.log("it works !")
+import locale from 'browser-locale'
+
+export function getLocale() {
+	return locale()
 }
