@@ -18,7 +18,7 @@ I18n.setTranslations({
     }
 })
 
-class Login extends Component <Props, State> {
+class Demo extends Component <Props, State> {
     constructor(props) {
         super(props)
     }
@@ -44,7 +44,7 @@ I18n.setTranslations({
     fr: require('./translations/fr')
 })
 
-class Login extends Component <Props, State> {
+class Demo extends Component <Props, State> {
     constructor(props) {
         super(props)
     }
