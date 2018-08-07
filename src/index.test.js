@@ -1,6 +1,5 @@
 import I18n from './index'
 
-I18n.setLocale('en')
 I18n.setTranslations({
     en: {
         'HELLO': 'Hello',

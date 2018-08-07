@@ -7,7 +7,7 @@ export default class I18n {
     static setTranslations(translations, fallback = undefined) {
 		this.translations = translations
 		if (this.locale === undefined) {
-			let tmpLocale = getLocale()
+			let tmpLocale = I18n.getLocale()
 			this.locale = tmpLocale.includes("-") ? tmpLocale.split("-")[0] : tmpLocale
 		}
 		this.languageFallback = fallback === undefined ? 'en' : fallback

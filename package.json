@@ -1,7 +1,7 @@
 {
   "name": "react-light-i18n",
-  "version": "1.0.0",
-  "description": "A simple lib to deal with text translation with automatic locale detection",
+  "version": "1.0.1",
+  "description": "A very light weight library to deal with string translations with automatic locale detection",
   "main": "./distribution/index.js",
   "scripts": {
     "build": "babel src --presets babel-preset-es2015 --out-dir distribution --plugins transform-class-properties",
