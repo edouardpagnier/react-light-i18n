@@ -1,10 +1,16 @@
 {
   "name": "react-light-i18n",
-  "version": "0.0.1",
-  "description": "A simple lib to deal with text translation with automatic locale detection",
-  "main": "index.js",
+  "version": "1.0.3",
+  "description": "A very light weight library to deal with string translations with automatic locale detection",
+  "main": "./distribution/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src --presets babel-preset-es2015 --out-dir distribution --plugins transform-class-properties",
+    "prepublish": "yarn build",
+    "test": "yarn build && jest"
+  },
+  "jest": {
+    "testURL": "http://localhost",
+    "testPathIgnorePatterns": ["/node_modules/", "/src/"]
   },
   "repository": {
     "type": "git",
@@ -19,5 +25,11 @@
   "bugs": {
     "url": "https://github.com/edouardpagnier/react-simple-i18n/issues"
   },
-  "homepage": "https://github.com/edouardpagnier/react-simple-i18n#readme"
+  "homepage": "https://github.com/edouardpagnier/react-simple-i18n#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "jest": "^23.4.2"
+  }
 }
