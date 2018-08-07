@@ -60,7 +60,7 @@ class Login extends Component <Props, State> {
 }
 ```
 
-####./translations/en.json
+#### ./translations/en.json
 
 ```javascript
 {
@@ -69,7 +69,7 @@ class Login extends Component <Props, State> {
 }
 ```
 
-####./translations/fr.json
+#### ./translations/fr.json
 
 ```javascript
 {
