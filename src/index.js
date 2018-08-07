@@ -7,7 +7,8 @@ export default class I18n {
 
     static setTranslations(translations) {
         this.translations = translations
-        this.locale = getLocale()
+        let tmpLocale = getLocale()
+        this.locale = tmpLocale.includes("-") ? tmpLocale.split("-")[0] : tmpLocale
     }
 
     static t(key) {
