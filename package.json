@@ -1,0 +1,23 @@
+{
+  "name": "react-simple-i18n",
+  "version": "0.0.1",
+  "description": "A simple lib to deal with text translation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edouardpagnier/react-simple-i18n.git"
+  },
+  "keywords": [
+    "react",
+    "i18n"
+  ],
+  "author": "Edouard Pagnier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edouardpagnier/react-simple-i18n/issues"
+  },
+  "homepage": "https://github.com/edouardpagnier/react-simple-i18n#readme"
+}
