@@ -1,6 +1,6 @@
 {
   "name": "react-light-i18n",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A very light weight library to deal with string translations with automatic locale detection",
   "main": "./distribution/index.js",
   "scripts": {
