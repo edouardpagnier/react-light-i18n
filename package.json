@@ -26,9 +26,6 @@
     "url": "https://github.com/edouardpagnier/react-simple-i18n/issues"
   },
   "homepage": "https://github.com/edouardpagnier/react-simple-i18n#readme",
-  "dependencies": {
-    "browser-locale": "^1.0.3"
-  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
