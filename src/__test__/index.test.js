@@ -1,4 +1,4 @@
-import I18n from './index'
+import I18n from '../index'
 
 I18n.setTranslations({
     en: {
